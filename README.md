@@ -1,5 +1,7 @@
 # Template-de-series
 
+![Capa do projeto](imagens/capa.png)
+
 Projeto: Template de Site de Séries
 Este projeto é um template de site de séries, desenvolvido com HTML e CSS puro, pensado para exibir informações sobre séries de forma visualmente atraente e organizada.
 
