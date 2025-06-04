@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOP SERIES</title>
-  <link rel="stylesheet" href ="serie.css">
+  <link rel="stylesheet" href="serie.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,136 +13,94 @@
 </head>
 <body>
 
-
-
 <header>
-
-
-   
   <a href="#" class="logo">my.SERIES</a>
-  
-  
   <nav class="navbar">
       <ul>
         <li class="home"><a href="#">HOME</a></li>
         <li><a href="#">Movies</a></li>
-        <li><a href="#">Tv shows</a></li>
+        <li><a href="#">TV Shows</a></li>
       </ul>
   </nav>
-
-
   <div class="search-box">
-    <input type="text" class="search-text"
-    placeholder="Search...">
-
-    <a class= "search-btn" >
-      <img class ="lupa-azul" src="./loupe-white.svg" width="25" height="25" alt="">
-  </a>
+    <input type="text" class="search-text" placeholder="Search...">
+    <a class="search-btn">
+      <img class="search-icon" src="./svg/loupe-white.svg" width="25" height="25" alt="search icon">
+    </a>
   </div>
-
-  
-  
 </header>
 
-  <img class="fundo-ciano" src="ciano.png" alt="oi">
+<img class="bg-cyan" src="images/ciano.png" alt="background">
 
+<div class="rating">
+  <input type="radio" name="rating" id="rating-1">
+  <label for="rating-1"></label>
+  <input type="radio" name="rating" id="rating-2">
+  <label for="rating-2"></label>
+  <input type="radio" name="rating" id="rating-3">
+  <label for="rating-3"></label>
+  <input type="radio" name="rating" id="rating-4">
+  <label for="rating-4"></label>
+  <input type="radio" name="rating" id="rating-5">
+  <label for="rating-5"></label>
+</div>
 
-  <div class="rating">
-    <input type="radio" name="rating" id="r1">
-    <label for="r1"></label>
+<div class="content">
+  <div class="slides">
+    <h2 class="season-title">Season 1</h2>
 
-    <input type="radio" name="rating" id="r2">
-    <label for="r2"></label>
+    <input type="radio" name="slide" id="slide-witcher" checked>
+    <label id="card-witcher" for="slide-witcher">
+      <img class="img-witcher" src="images/the-wicher.jpg" alt="The Witcher">
+    </label>
+    <img class="bg-witcher" src="images/wallpaperflare.com_wallpaper.png" alt="The Witcher background">
+    <img class="logo-witcher" src="images/Witcher-Logo-PNG-Images.png" alt="The Witcher logo">
+    <h2 class="title-witcher">The Witcher</h2>
+    <p class="synopsis-witcher">Geralt of Rivia, a mutated monster hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts. Watch as much as you want.</p>
+    <button class="btn-play">
+      <img class="icon-play" src="images/botao-play.png" alt="play button">
+    </button>
+    <button class="btn-more">
+      <img class="icon-more" src="images/pngwing.com.png" alt="more button">
+    </button>
 
-    <input type="radio" name="rating" id="r3">
-    <label for="r3"></label>
+    <input type="radio" name="slide" id="slide-friends">
+    <label id="card-friends" for="slide-friends">
+      <img class="img-friends" src="images/firends.jpg" alt="Friends">
+    </label>
+    <img class="bg-friends" src="images/friends-fundo.png" alt="Friends background">
+    <img class="logo-friends" src="images/toppng.com-friendstv-club-friends-logo-white-901x203.png" alt="Friends logo">
+    <h2 class="title-friends">Friends</h2>
+    <p class="synopsis-friends">Friends follows the lives of Ross, Rachel, Monica, Chandler, Joey, and Phoebe—a group of friends facing the ups and downs of adulthood, love, and career decisions in New York City.</p>
 
-    <input type="radio" name="rating" id="r4">
-    <label for="r4"></label>
+    <input type="radio" name="slide" id="slide-breaking">
+    <label id="card-breaking" for="slide-breaking">
+      <img class="img-breaking" src="images/breaking-bad.jpg" alt="Breaking Bad">
+    </label>
+    <img class="bg-breaking" src="images/breaking-bad-pc-wallpaper-4k.png" alt="Breaking Bad background">
+    <img class="logo-breaking" src="images/kisspng-logo-walter-white-vector-graphics-television-show-breaking-bad-png-18-5b754e10a05298.6389091215344143526567.png" alt="Breaking Bad logo">
+    <h2 class="title-breaking">Breaking Bad</h2>
+    <p class="synopsis-breaking">A high school teacher diagnosed with terminal lung cancer teams up with a former student to manufacture and sell methamphetamine to secure his family's future. Watch all you want.</p>
 
-    <input type="radio" name="rating" id="r5">
-    <label for="r5"></label>
+    <input type="radio" name="slide" id="slide-rick">
+    <label id="card-rick" for="slide-rick">
+      <img class="img-rick" src="images/0b7f5d07109466a7cea80e520ca869a3.jpg" alt="Rick and Morty">
+    </label>
+    <img class="bg-rick" src="images/1330376.png" alt="Rick and Morty background">
+    <img class="logo-rick" src="images/58f37720a4fa116215a9240f.png" alt="Rick and Morty logo">
+    <h2 class="title-rick">Rick and Morty</h2>
+    <p class="synopsis-rick">The show follows the adventures of the Smith family—parents Jerry and Beth, their children Summer and Morty, and Beth's father, Rick Sanchez, a genius scientist who lives with them as a guest.</p>
 
+    <input type="radio" name="slide" id="slide-thisis">
+    <label id="card-thisis" for="slide-thisis">
+      <img class="img-thisis" src="images/This-is-Us.jpg" alt="This Is Us">
+    </label>
+    <img class="bg-thisis" src="images/wallpapersden.com_this-is-us-2022_3190x1794.png" alt="This Is Us background">
+    <img class="logo-thisis" src="images/This_Is_Us_(Logo).png" alt="This Is Us logo">
+    <h2 class="title-thisis">This Is Us</h2>
+    <p class="synopsis-thisis">This Is Us tells the story of three people born on the same day—two men and a woman. The plot moves between the 1980s and the present, showing their childhoods in contrast with their adult lives.</p>
   </div>
+</div>
 
-
-
-
-  <div class="content">
-
-    <div class="slides">
-
-
-      <h2 class="temporada">Season 1</h2>
-     
-
-
-
-
-
-
-      <input type="radio" name="slide" id="input-witcher" checked>
-      <label id="cartz-witcher"  for="input-witcher"><img class="imagem-witcher" src="the-wicher.jpg" alt="oi"></label>
-      <img class="fundo-witcher" src="wallpaperflare.com_wallpaper.png" alt="oi">
-      <img class="logo-witcher" src="Witcher-Logo-PNG-Images.png" alt="oi">
-      <h2 class="titulo-the-witcher">The Witcher</h2>
-      <p class="sinopse-the-witcher">O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens. Assista o quanto quiser.</p>
-      <button class="botao-play"><img class="play-botao" src="botao-play.png" alt="oi"></button>
-      <button class="botao-mais"><img class="mais-botao" src="pngwing.com.png" alt="oi"></button>
-     
-
-
-
-      <input type="radio" name="slide" id="input-friends">
-      <label id="cartz-friends"  for="input-friends"><img class="imagem-friends" src="firends.jpg" alt="oi"></label>
-      <img class="fundo-friends" src="friends-fundo.png" alt="oi">
-      <img class="logo-friends" src="toppng.com-friendstv-club-friends-logo-white-901x203.png" alt="oi">
-      <h2 class="titulo-friends">Friends</h2>
-      <p class="sinopse-friends">Friends conta a história de Ross, Rachel, Mônica, Chandler, Joey e Phoebe que formam um grupo de amigos. Os seis passam por situações típicas da idade, como a entrada na vida adulta, desilusões amorosas e tomadas de decisões profissionais.</p>
-
-
-
-      <input type="radio" name="slide" id="input-breaking">
-      <label id="cartz-breaking"  for="input-breaking"><img class="imagem-breaking" src="breaking-bad.jpg" alt="oi"></label>
-      <img class="fundo-breaking" src="breaking-bad-pc-wallpaper-4k.png" alt="oi">
-      <img class="logo-breaking" src="kisspng-logo-walter-white-vector-graphics-television-show-breaking-bad-png-18-5b754e10a05298.6389091215344143526567.png" alt="oi">
-      <h2 class="titulo-breaking">Breaking Bad</h2>
-      <p class="sinopse-breaking"> Um professor do secundário com cancro do pulmão terminal junta-se a um ex-aluno para fabricar e vender metanfetaminas como forma de garantir o futuro da sua família. Veja tudo o que quiser.
-      </p>
-
-
-
-
-      <input type="radio" name="slide" id="input-rick">
-      <label id="cartz-rick"  for="input-rick"><img class="imagem-rick" src="0b7f5d07109466a7cea80e520ca869a3.jpg" alt="oi"></label>
-      <img class="fundo-rick" src="1330376.png" alt="oi">
-      <img class="logo-rick" src="58f37720a4fa116215a9240f.png" alt="oi">
-      <h2 class="titulo-rick">Rick and Morty</h2>
-      <p class="sinopse-rick"> O show gira em torno das aventuras dos membros da família Smith, que consiste nos pais Jerry e Beth, seus filhos Summer e Morty, e o pai de Beth, chamado Rick Sanchez, que mora com eles como hóspede.
-      </p>
-
-
-
-      <input type="radio" name="slide" id="input-this-is">
-      <label id="cartz-this-is"  for="input-this-is"><img class="imagem-this-is" src="This-is-Us.jpg" alt="oi"></label>
-      <img class="fundo-this-is" src="wallpapersden.com_this-is-us-2022_3190x1794.png" alt="oi">
-      <img class="logo-this-is" src="This_Is_Us_(Logo).png" alt="oi">
-      <h2 class="titulo-this-is">This is Us</h2>
-      <p class="sinopse-this-is"> This Is Us apresenta a história de três pessoas nascidas no mesmo dia, dois homens e uma mulher. A trama navega entre os anos 1980 e os dias atuais, mostrando a infância de cada uma delas em contraste com a vida adulta.
-      </p>
-
-    </div>
-  </div>
-
-
-
-
-  
-
- 
-
-
-  </body>
-  </html>
 </body>
 </html>
