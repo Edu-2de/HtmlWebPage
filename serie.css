@@ -45,7 +45,6 @@ header{
   font-family: "Roboto", sans-serif;
 }
 
-
 .home{
   font-weight: bolder;
   font-size: 30px;
@@ -68,10 +67,6 @@ header .navbar ul li a:hover{
   background: transparent;
   color: #13C6B3;
   padding: auto;
-  
-  
- 
-
 }
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul{
@@ -101,16 +96,11 @@ header .navbar ul li ul li ul{
   box-shadow: 0px 1px 0px rgb(255, 255, 255);
 }
 
-
-
-
 .search-box{
   background: #0F1219;
   height: 50px;
   padding: 15px;
   border-radius: 40px;
-
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,16 +109,10 @@ header .navbar ul li ul li ul{
   background: none;
   border: 0;
   outline: 0;
-
   padding: 0;
-  
-
   font-size: 16px;
-
   transition: 0.4s;
-
   width: 0;
-
 }
 .search-box:hover > .search-text{
   width: 320px;
@@ -140,20 +124,7 @@ header .navbar ul li ul li ul{
   border-radius: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.temporada{
+.season-title{
   transition: 1.5s;
   position: absolute;
   font-family: "Roboto", sans-serif;
@@ -162,12 +133,12 @@ header .navbar ul li ul li ul{
   top: 270px;
   left: 300px;
 }
-.play-botao{
+.icon-play{
   padding-top: 0;
   width: 35px;
   height: 35px;
 }
-.botao-play{
+.btn-play{
   z-index: 20;
   position: absolute;
   margin-top: 400px;
@@ -177,12 +148,12 @@ header .navbar ul li ul li ul{
   background: #13c6b480;
   cursor: pointer;
 }
-.mais-botao{
+.icon-more{
   padding-top: 0;
   width: 35px;
   height: 35px;
 }
-.botao-mais{
+.btn-more{
   z-index: 20;
   position: absolute;
   margin-top: 400px;
@@ -194,21 +165,19 @@ header .navbar ul li ul li ul{
   cursor: pointer;
 }
 
-.fundo-ciano{
+.bg-cyan{
   left: 0px;
   top: 450px;
   width: 1950px;
   z-index: 0;
   position: absolute;
-
 }
 
-
-
-#input-witcher{
+/* The Witcher */
+#slide-witcher{
   display: none;
 }
-.imagem-witcher{
+.img-witcher{
   z-index: 10;
   top: 650px;
   left: 300px;
@@ -218,12 +187,12 @@ header .navbar ul li ul li ul{
   cursor: pointer;
   transition: 0.7s;
 }
-.imagem-witcher:hover{
+.img-witcher:hover{
   top: 600px;
   width: 250px;
   height: 310px;
 }
-.fundo-witcher{
+.bg-witcher{
   z-index: 0;
   position: absolute;
   width: 0px;
@@ -232,7 +201,7 @@ header .navbar ul li ul li ul{
   left: 900px;
   transition: 0.7s;
 }
-#input-witcher:checked ~ .fundo-witcher{
+#slide-witcher:checked ~ .bg-witcher{
   top: 80px;
   left: 400px;
   width: 1400px;
@@ -247,22 +216,21 @@ header .navbar ul li ul li ul{
   top: 700px;
   transition: 1.5s;
 }
-#input-witcher:checked ~ .logo-witcher{
+#slide-witcher:checked ~ .logo-witcher{
   width: 483px;
   height: 206px;
   top: 100px;
   left: 300px;
 }
-.titulo-the-witcher{
+.title-witcher{
   margin-left: 300px;
   margin-top: 880px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   position: absolute;
   color: #ffff;
-
 }
-.sinopse-the-witcher{
+.synopsis-witcher{
   position: absolute;
   color: #ffffffbd;
   z-index: 0;
@@ -272,29 +240,16 @@ header .navbar ul li ul li ul{
   margin-top: 500px;
   padding-right: 1150px;
 }
-#input-witcher:checked ~ .sinopse-the-witcher{
+#slide-witcher:checked ~ .synopsis-witcher{
   font-size: 20px;
   transition: 1.5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#input-friends{
+/* Friends */
+#slide-friends{
   display: none;
 }
-.imagem-friends{
+.img-friends{
   z-index: 10;
   top: 650px;
   left: 600px;
@@ -304,12 +259,12 @@ header .navbar ul li ul li ul{
   cursor: pointer;
   transition: 0.7s;
 }
-.imagem-friends:hover{
+.img-friends:hover{
   top: 600px;
   width: 250px;
   height: 310px;
 }
-.fundo-friends{
+.bg-friends{
   z-index: 0;
   position: absolute;
   width: 0px;
@@ -318,7 +273,7 @@ header .navbar ul li ul li ul{
   left: 900px;
   transition: 0.7s;
 }
-#input-friends:checked ~ .fundo-friends{
+#slide-friends:checked ~ .bg-friends{
   top: 80px;
   left: 600px;
   width: 1400px;
@@ -333,22 +288,21 @@ header .navbar ul li ul li ul{
   top: 700px;
   transition: 1.5s;
 }
-#input-friends:checked ~ .logo-friends{
+#slide-friends:checked ~ .logo-friends{
   width: 483px;
   height: 70px;
   top: 150px;
   left: 300px;
 }
-.titulo-friends{
+.title-friends{
   margin-left: 600px;
   margin-top: 880px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   position: absolute;
   color: #ffff;
-
 }
-.sinopse-friends{
+.synopsis-friends{
   position: absolute;
   color: #ffffffbd;
   z-index: 0;
@@ -358,30 +312,16 @@ header .navbar ul li ul li ul{
   margin-top: 500px;
   padding-right: 1150px;
 }
-#input-friends:checked ~ .sinopse-friends{
+#slide-friends:checked ~ .synopsis-friends{
   font-size: 20px;
   transition: 1.5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#input-breaking{
+/* Breaking Bad */
+#slide-breaking{
   display: none;
 }
-.imagem-breaking{
+.img-breaking{
   z-index: 10;
   top: 650px;
   left: 900px;
@@ -391,12 +331,12 @@ header .navbar ul li ul li ul{
   cursor: pointer;
   transition: 0.7s;
 }
-.imagem-breaking:hover{
+.img-breaking:hover{
   top: 600px;
   width: 250px;
   height: 310px;
 }
-.fundo-breaking{
+.bg-breaking{
   z-index: 0;
   position: absolute;
   width: 0px;
@@ -405,7 +345,7 @@ header .navbar ul li ul li ul{
   left: 900px;
   transition: 0.7s;
 }
-#input-breaking:checked ~ .fundo-breaking{
+#slide-breaking:checked ~ .bg-breaking{
   top: 80px;
   left: 600px;
   width: 1400px;
@@ -420,22 +360,21 @@ header .navbar ul li ul li ul{
   top: 700px;
   transition: 1.5s;
 }
-#input-breaking:checked ~ .logo-breaking{
+#slide-breaking:checked ~ .logo-breaking{
   width: 250px;
   height: 250px;
   top: 50px;
   left: 300px;
 }
-.titulo-breaking{
+.title-breaking{
   margin-left: 900px;
   margin-top: 880px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   position: absolute;
   color: #ffff;
-
 }
-.sinopse-breaking{
+.synopsis-breaking{
   position: absolute;
   color: #ffffffbd;
   z-index: 0;
@@ -445,32 +384,16 @@ header .navbar ul li ul li ul{
   margin-top: 500px;
   padding-right: 1150px;
 }
-#input-breaking:checked ~ .sinopse-breaking{
+#slide-breaking:checked ~ .synopsis-breaking{
   font-size: 20px;
   transition: 1.5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#input-rick{
+/* Rick and Morty */
+#slide-rick{
   display: none;
 }
-.imagem-rick{
+.img-rick{
   z-index: 10;
   top: 650px;
   left: 1200px;
@@ -480,12 +403,12 @@ header .navbar ul li ul li ul{
   cursor: pointer;
   transition: 0.7s;
 }
-.imagem-rick:hover{
+.img-rick:hover{
   top: 600px;
   width: 250px;
   height: 310px;
 }
-.fundo-rick{
+.bg-rick{
   z-index: 0;
   position: absolute;
   width: 0px;
@@ -494,7 +417,7 @@ header .navbar ul li ul li ul{
   left: 900px;
   transition: 0.7s;
 }
-#input-rick:checked ~ .fundo-rick{
+#slide-rick:checked ~ .bg-rick{
   top: 80px;
   left: 600px;
   width: 1400px;
@@ -509,13 +432,13 @@ header .navbar ul li ul li ul{
   top: 700px;
   transition: 1.5s;
 }
-#input-rick:checked ~ .logo-rick{
+#slide-rick:checked ~ .logo-rick{
   width: 440px;
   height: 140px;
   top: 120px;
   left: 300px;
 }
-.titulo-rick{
+.title-rick{
   margin-left: 1200px;
   margin-top: 880px;
   font-size: 20px;
@@ -523,7 +446,7 @@ header .navbar ul li ul li ul{
   position: absolute;
   color: #ffff;
 }
-.sinopse-rick{
+.synopsis-rick{
   position: absolute;
   color: #ffffffbd;
   z-index: 0;
@@ -533,29 +456,16 @@ header .navbar ul li ul li ul{
   margin-top: 500px;
   padding-right: 1150px;
 }
-#input-rick:checked ~ .sinopse-rick{
+#slide-rick:checked ~ .synopsis-rick{
   font-size: 20px;
   transition: 1.5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#input-this-is{
+/* This Is Us */
+#slide-thisis{
   display: none;
 }
-.imagem-this-is{
+.img-thisis{
   z-index: 10;
   top: 650px;
   left: 1500px;
@@ -565,12 +475,12 @@ header .navbar ul li ul li ul{
   cursor: pointer;
   transition: 0.7s;
 }
-.imagem-this-is:hover{
+.img-thisis:hover{
   top: 600px;
   width: 250px;
   height: 310px;
 }
-.fundo-this-is{
+.bg-thisis{
   z-index: 0;
   position: absolute;
   width: 0px;
@@ -579,13 +489,13 @@ header .navbar ul li ul li ul{
   left: 900px;
   transition: 0.7s;
 }
-#input-this-is:checked ~ .fundo-this-is{
+#slide-thisis:checked ~ .bg-thisis{
   top: 80px;
   left: 600px;
   width: 1400px;
   height: 800px;
 }
-.logo-this-is{
+.logo-thisis{
   z-index: 0;
   position: absolute;
   width: 100px;
@@ -594,13 +504,13 @@ header .navbar ul li ul li ul{
   top: 700px;
   transition: 1.5s;
 }
-#input-this-is:checked ~ .logo-this-is{
+#slide-thisis:checked ~ .logo-thisis{
   width: 500px;
   height: 100px;
   top: 160px;
   left: 300px;
 }
-.titulo-this-is{
+.title-thisis{
   margin-left: 1500px;
   margin-top: 880px;
   font-size: 20px;
@@ -608,7 +518,7 @@ header .navbar ul li ul li ul{
   position: absolute;
   color: #ffff;
 }
-.sinopse-this-is{
+.synopsis-thisis{
   position: absolute;
   color: #ffffffbd;
   z-index: 0;
@@ -618,30 +528,10 @@ header .navbar ul li ul li ul{
   margin-top: 500px;
   padding-right: 1150px;
 }
-#input-this-is:checked ~ .sinopse-this-is{
+#slide-thisis:checked ~ .synopsis-thisis{
   font-size: 20px;
   transition: 1.5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .rating{
   z-index: 20;
