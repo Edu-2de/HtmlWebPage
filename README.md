@@ -1,19 +1,35 @@
-# Template-de-series
+# Series Website Template
 
-![Capa do projeto](imagens/capa.png)
+## Project Overview
 
-Este projeto é um template de site de séries, desenvolvido com HTML e CSS puro, pensado para exibir informações sobre séries de forma visualmente atraente e organizada.
+This project is a template for a series-focused website, developed using only HTML and CSS. It is designed to visually showcase information about TV series in an attractive and organized manner.
 
-Funcionalidades:
-Página inicial estilizada, destacando as séries em cartaz ou populares.
-Seções temáticas, como "Séries em Destaque", "Gêneros" e "Novidades".
-Cartões de séries com título, imagem e breve descrição.
-Design totalmente responsivo, adaptado para diferentes dispositivos (mobile, tablet e desktop).
-Uso de animações CSS para transições suaves, como ao passar o cursor sobre as séries.
-Objetivo do projeto:
-Praticar e aplicar habilidades de front-end, como:
+## Features
 
-Estruturação de páginas temáticas com HTML semântico.
-Estilização moderna e visualmente agradável com CSS.
-Implementação de design responsivo com media queries.
-Este template é ideal para quem deseja criar ou se inspirar em projetos voltados para séries, oferecendo uma base funcional e estilizada para sites temáticos.
+- **Stylized Homepage:** Highlights currently airing or popular series.
+- **Thematic Sections:** Includes areas such as "Featured Series", "Genres", and "New Releases".
+- **Series Cards:** Display each series with a title, image, and brief description.
+- **Fully Responsive Design:** Optimized for mobile, tablet, and desktop devices.
+- **CSS Animations:** Smooth transitions and hover effects for an engaging user experience.
+
+## Project Objectives
+
+The main goals of this template are to practice and apply front-end skills, including:
+
+- Structuring themed pages with semantic HTML.
+- Creating modern and visually appealing styles with CSS.
+- Implementing responsive design with media queries.
+
+## Ideal Use
+
+This template is a great starting point for anyone looking to create or draw inspiration from series-related web projects, providing a functional and stylish foundation for themed sites.
+
+## Getting Started
+
+1. **Clone or download the repository.**
+2. Open the `index.html` file in your browser.
+3. Customize the content and styles in the HTML and CSS files as needed.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
